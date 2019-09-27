@@ -6,6 +6,12 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  # TODO nf-core: Add required software dependencies here
   - fastqc=0.11.8
+  - cutadapt=2.5
+  - bwa=0.7.17
+  - samtools=1.9
+  - pysam=0.15.3
+  - mageck=0.5.9.2
+  - r-base=3.6.1
+  - r-markdown=0.9
   - multiqc=1.7
