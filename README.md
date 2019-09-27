@@ -38,7 +38,7 @@ nextflow run nf-core/sgrnaquant -profile test,<docker/singularity/conda>
 iv. Start running your own analysis!
 
 ```bash
-nextflow run nf-core/sgrnaquant -profile <docker/singularity/conda> --design design.csv --genome GRCh37
+nextflow run nf-core/sgrnaquant -profile <docker/singularity/conda> --design design.csv
 ```
 
 See [usage docs](docs/usage.md) for all of the available options when running the pipeline.
@@ -51,7 +51,6 @@ The nf-core/sgrnaquant pipeline comes with documentation about the pipeline, fou
 2. Pipeline configuration
     * [Local installation](https://nf-co.re/usage/local_installation)
     * [Adding your own system config](https://nf-co.re/usage/adding_own_config)
-    * [Reference genomes](https://nf-co.re/usage/reference_genomes)
 3. [Running the pipeline](docs/usage.md)
 4. [Output and how to interpret the results](docs/output.md)
 5. [Troubleshooting](https://nf-co.re/usage/troubleshooting)
